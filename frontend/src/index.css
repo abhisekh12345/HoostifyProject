@@ -260,3 +260,144 @@
 .CardRotate:hover .updownContent{
   transform: translateY(-70%);
 }
+
+.testomonialCard{
+  width: 350px;
+  height: 350px;
+  border: 1px solid #cbd5e1;
+  border-left: 45px solid #0891b2;
+  position: relative;
+  transition: all 1s;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.testomonialImage{
+   width: 105px;
+   height: 105px;
+   margin-left: 20px;
+   margin-top: 30px;
+ 
+}
+
+.Imagetestomonial{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+}
+
+.testomonialCard::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22d3ee;
+    color: transparent;
+    opacity: 0.5;
+    transform: translateY(-100%);
+    transition: all 1s;
+    z-index: -1;
+    
+}
+.testomonialCard::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22d3ee;
+    color: transparent;
+    opacity: 0.5;
+    transform: translateY(100%);
+    transition: all 1s;
+    z-index: -1;
+
+
+}
+
+.spanOne::before{
+  content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22d3ee;
+    color: transparent;
+    opacity: 0.5;
+    transform: translateX(100%);
+    transition: all 1s;
+    z-index: -1;
+         
+}
+
+.spanOne::after{
+  content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22d3ee;
+    color: transparent;
+    opacity: 0.5;
+    transform: translateX(-116%);
+    transition: all 1s; 
+  z-index: -1;
+
+}
+
+.testomonialCard:hover:before,
+.testomonialCard:hover:after{
+    transform: translateY(0%);
+    transition: all 1s; 
+    
+}
+
+.testomonialCard:hover .spanOne:after,
+.testomonialCard:hover .spanOne:before{
+  transform: translateX(0);
+  transition: all 1s; 
+
+}
+
+.testomonialCard:hover .testoh1{
+  color: white;
+  transition: all 1s;
+}
+
+.testomonialCard:hover .testopaara{
+  color: #f1f5f9;
+  transition: all 1s;
+}
+
+
+.brandbox{
+  width: 250px;
+  height: 200px;
+}
+
+.brandboxImage{
+  width: 100%;
+  height: 100%;
+}
+
+.splitTwo{
+  display: flex;
+
+}
+
+.formContent{
+  width: 50%;
+}
+
+.formFillup{
+  width: 50%;
+  padding: 10px;
+}
