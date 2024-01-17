@@ -30,7 +30,7 @@ const Navbar = () => {
                 <li>Contact Us</li>
                </ul>
              </div>
-             <div className="border-2 py-1 px-4 rounded-3xl" style={{fontSize : "0.95rem", backgroundColor : "#ff0000",color:"white"}}>
+             <div className=" py-1 px-4 rounded-3xl" style={{fontSize : "0.95rem", backgroundColor : "#ff0000",color:"white"}}>
                  <a href="applynow">Apply Now</a>
              </div>
           </div>

@@ -1,8 +1,9 @@
-import Navbar from "./HomeFolder/Navbar";
+import Home from "./HomeFolder/Home";
+
 
 function App() {
   return (
-      <Navbar />
+     <Home />
   );
 }
 

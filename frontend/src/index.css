@@ -121,3 +121,142 @@
   background-color: #0284c7;
   color: white;
 }
+
+.banner{
+  padding-top: 20px;
+ 
+}
+
+
+
+.Bimage{
+  width: 100%;
+  height: 550px;
+}
+
+.bannerImage{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  
+}
+
+.containerVideo{
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoContent{
+  height: 100%;
+}
+
+
+.borderTest{
+  border: 1px solid red;
+}
+
+.felxCarousel{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.Multifirst{
+  width: 50%;
+  height: 100%;
+}
+
+.Multisecond{
+  width: 50%;
+}
+
+.itembox{
+  height: auto;
+  width: 310px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 15px 19px;
+}
+
+
+.itemImage{
+  position: relative;
+  width: 100%;
+ 
+}
+
+.imagePosition{
+  width: 100%;
+  height: 160px;
+}
+
+.itemContent{
+  margin-top: 5px;
+}
+
+.extraPadding{
+  padding: 60px 100px;
+}
+
+.midCard{
+  width: 100%;
+  height: 200px;
+}
+
+.midCardImage{
+  width: 100%;
+  height: 100%;
+  transition: all 1.5s;
+}
+
+.cARD{
+  width: 100%;
+  height: 300px;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+}
+
+.CardRotate{
+  position: relative;
+  transition: all 1.5s;
+ overflow: hidden;
+}
+
+.CardRotate::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: all 1.5s;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: transparent;
+  border-radius: 15px;
+}
+
+.CardRotate:hover .midCardImage{
+   height: 150%;
+   opacity: 0.7;
+   filter: blur(6px);
+   transition: all 1.5s;
+}
+
+.CardRotate:hover:before{
+ transform: translateX(0);
+ transition: all 1.5s;
+}
+
+.updownContent{
+  height: 400px;
+  transition: all 1.5s;
+ 
+}
+
+.CardRotate:hover .updownContent{
+  transform: translateY(-70%);
+}
